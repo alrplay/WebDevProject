@@ -1,0 +1,152 @@
+body{
+    background-color: beige;
+}
+div{
+    font-family: sans-serif;
+}
+
+/*header styles*/
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 40px;
+    margin: 60px;
+    margin-top: 70px;
+    border: solid 3px #2d2d2d;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.headertitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(90, 90, 223);
+    font-style: bold;
+}
+
+.float{
+    top: 5px;
+    right: 5px;
+    height: 25px;
+    width: auto;
+    padding: 5px;
+    text-align: right;
+}
+
+.bars{
+    color: lightskyblue;
+    font-style: bold 3px;
+}
+
+.linktabs{
+    color: lightskyblue;
+    font-style: bold 3px;
+}
+
+.linktabs:hover{
+    color: tomato;
+}
+
+/*body layout*/
+
+.container{
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+    grid-area: 1000px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    border: solid 3px #2d2d2d;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.chart1{
+    grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    grid-row: 1;
+}
+
+.chart2{
+    grid-column: 5;
+        grid-column-start: 5;
+        grid-column-end: 10;
+    grid-row: 1;
+}
+
+.chart3{
+    grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    grid-row: 2;
+}
+
+.chart4{
+    grid-column: 5;
+        grid-column-start: 5;
+        grid-column-end: 10;
+    grid-row: 2;
+}
+
+.callout{
+    margin: 0;
+}
+
+span{
+    color: white;
+    background-color: rgb(90, 90, 223);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+h3{
+    font-style: oblique;
+    text-shadow: 10px;
+    font-weight: 20px;
+}
+
+/*
+.chart1{
+    top: 120px;
+    left: 5px;
+    width: 600px;
+    height: 500px;
+}
+
+.chart2{
+    top: 120px;
+    right: 5px;
+    width: 600px;
+    height: 500px;
+}
+
+.chart3{
+    top: 540px;
+    left: 5px;
+    width: 600px;
+    height: 500px;
+}
+
+.chart4{
+    top: 540px;
+    right: 5px;
+    width: 600px;
+    height: 500px;
+}*/
+
+/*footer styles*/
+.footer{
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    height: 80px;
+    font-size:12px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: solid 1px #555555;
+}
